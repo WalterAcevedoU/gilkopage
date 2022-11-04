@@ -1,16 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    
+    
     <title>Document</title>
 </head>
-<body>
-    <div class="bienvenida">
-        <img src="img/gklogo81.png" alt="">
-        <img src="img/gklogo82.png" alt="">
+
+<body style="background-color: #005589;">
+    <div class="imagen">
+        <img src="img/gklogo81.png" alt="" style="width:10%">
+        <img src="img/gklogo82.png" alt="" style="width:30%">
     </div>
+
+    <hr>
+
+    <div class="buendia">
+        <div class="mensaje">
+            <h2 class="prin">Buen Dia</h2>
+            <p class="sub">¿Qué necesita?</p>
+        </div>
+        <br>
+
+         <!-- OBJETOS MENU -->
+
+        <div class="menu">
+            <a class="imagenmenu" href="#" data-bs-toggle="modal" data-bs-target="#cirugias"><img src="img/cirugia.jpeg"
+                    style="width:20vh"></a>
+            <a class="imagenmenu" href="#" data-bs-toggle="modal" data-bs-target="#ubicanos"><img src="img/mapa.png"
+                    style="width:20vw;"></a>
+            <a class="imagenmenu" href="#" data-bs-toggle="modal" data-bs-target="#drkodaka"><img src="img/docgil_1.jpg"
+                    style="width: 20vh;"></a>
+        </div>
+
+        <!-- EFECTO SUPERPOSICION (MODAL) -->
+
+
+        <div class="modal fade" id="cirugias" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ubicanos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="ubicanos">
+                            <h2 style="color:green; text-align:center;">Ubícanos</h2>
+                            <div class="drkodaka">
+                                <img src="img/mapa.png" style="width:15vw;">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quia aliquid, quibusdam
+                                    repellendus expedita porro laboriosam exercitationem consequatur, ratione quas atque
+                                    distinctio qui consectetur, quasi hic velit natus ut animi?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="drkodaka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h2 style="color:green; text-align:center;">Dr Kodaka</h2>
+                        <div class="drkodaka">
+                            <img src="img/docgil_1.jpg" style="width:15vw;">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quia aliquid, quibusdam
+                                repellendus expedita porro laboriosam exercitationem consequatur, ratione quas atque
+                                distinctio qui consectetur, quasi hic velit natus ut animi?</p>
+                        </div>
+                        <p class="verde">Membresias</p>
+
+                        <img src="img/membresias.png" style="width: 50vw;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="nav">MENUUUUUU</div>
+
+    <a class="wsp" href="https://wa.me/51999300363?text=I'm%20interested%20in%20your%20car%20for%20sale" target="_blank" ><img src="img/wsp.png" style="width: 5%;"></a>
+
+    <div style="padding-top: 2000px;"></div>
+
 </body>
+
 </html>
