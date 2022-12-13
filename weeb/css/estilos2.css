@@ -1,0 +1,903 @@
+.navegacion1
+{
+  width: 1250px;
+  margin: 15px auto;
+  position: relative;
+  left: -30px;
+  background-color: rgb(169, 162, 162);
+}
+.navegacion ul{
+  list-style: none;
+}
+.menu > li{
+
+  display: inline-block;
+}
+.menu > li > a{
+display: block;
+padding: 10px 100px;
+color: white;
+font-size: 19px;
+font-family: Verdana;
+text-decoration: none;
+position: relative;
+left: 30vh;
+}
+.navegacion1 img{
+  width: 50vh;
+  height: 10vh;
+  position: relative;
+  left: 450px;
+  top: 2vh;
+}
+.banner
+{
+  width: 204vh;
+  height: 80vh;
+  background-color: black;
+  position: relative;
+  top: -4.1vh;
+  left: -1.3vh;
+}
+
+.banner h1
+{
+  text-align: justify-all;
+  position: relative;
+  top: 30vh;
+  margin-right: 70px;
+  margin-left: 86vh;
+  font-size: 30px;
+}
+.banner h2
+{
+  text-align: justify-all;
+  margin-top: 40vh;
+  margin-right: 70px;
+  margin-left: 70vh;
+  font-size: 30px;
+}
+.card
+{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 50px;
+    margin-top: 100px;
+}
+.card1
+{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 50px;
+  margin-top: -400px;
+  left: 400px;
+}
+
+.card2
+{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 50px;
+  margin-top: -400px;
+  left: 800px;
+}
+
+.card3
+{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 50px;
+  margin-top: 100px;
+}
+
+.card4
+{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 50px;
+  margin-top: -400px;
+  left: 400px;
+}
+
+.card5
+{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 50px;
+  margin-top: -400px;
+  left: 800px;
+}
+
+.card6
+{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.card7
+{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 50px;
+  margin-top: -400px;
+  left: 400px;
+}
+
+.card8
+{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 50px;
+  margin-top: -400px;
+  left: 800px;
+}
+
+.card .face
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.card1 .face
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.card2 .face
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.card3 .face
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.card4 .face
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.card5 .face
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.card6 .face
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.card7 .face
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.card8 .face
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.card .front
+{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card1 .front
+{
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card2 .front
+{
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card3 .front
+{
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px;
+}
+
+.card4 .front
+{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card5 .front
+{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card6 .front
+{
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card7 .front
+{
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card8 .front
+{
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+
+.card .front img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card1 .front img
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card2 .front img
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card3 .front img
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card4 .front img
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card5 .front img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card6 .front img
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card7 .front img
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card8 .front img
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .front h3
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0, 0, 0,.4);
+    text-align: center;
+}
+
+.card1 .front h3
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0,.4);
+  text-align: center;
+}
+
+.card2 .front h3
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0,.4);
+  text-align: center;
+}
+
+.card3 .front h3
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0,.4);
+  text-align: center;
+}
+
+.card4 .front h3
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0,.4);
+  text-align: center;
+}
+
+.card5 .front h3
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0,.4);
+  text-align: center;
+}
+
+.card6 .front h3
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0,.4);
+  text-align: center;
+}
+
+.card7 .front h3
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0,.4);
+  text-align: center;
+}
+
+.card8 .front h3
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0,.4);
+  text-align: center;
+}
+
+.card .back
+{
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card1 .back
+{ 
+  transform: perspective(600px) rotateY(180deg); 
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card2 .back
+{
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card3 .back
+{
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card4 .back
+{
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card5 .back
+{
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card6 .back
+{
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card7 .back
+{
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card8 .back
+{
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link
+{
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card1 .back .link
+{
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card2 .back .link
+{
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card3 .back .link
+{
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card4 .back .link
+{
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card5 .back .link
+{
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card6 .back .link
+{
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card7 .back .link
+{
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card8 .back .link
+{
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card .back .link a 
+{
+    color: #f3f3f3
+}
+
+.card1 .back .link a
+{
+  color: #f3f3f3;
+}
+
+.card2 .back .link a
+{
+  color: #f3f3f3;
+}
+
+.card3 .back .link a
+{
+  color: #f3f3f3;
+}
+
+.card4 .back .link a
+{
+  color: #f3f3f3;
+}
+
+.card5 .back .link a
+{
+  color: #f3f3f3
+}
+
+.card6 .back .link a
+{
+  color: #f3f3f3
+}
+
+.card7 .back .link a
+{
+  color: #f3f3f3
+}
+
+.card8 .back .link a
+{
+  color: #f3f3f3
+}
+
+.card .back h3
+{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card1 .back h3
+{
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card2 .back h3
+{
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card3 .back h3
+{
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card4 .back h3
+{
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card5 .back h3
+{
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card6 .back h3
+{
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card7 .back h3
+{
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card8 .back h3
+{
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card .back p
+{
+    letter-spacing: 1px;
+}
+
+.card1 .back p
+{
+  letter-spacing: 1px;
+}
+
+.card2 .back p
+{
+  letter-spacing: 1px;
+}
+
+.card3 .back p
+{
+  letter-spacing: 1px;
+}
+
+.card4 .back p
+{
+  letter-spacing: 1px;
+}
+
+.card5 .back p
+{
+  letter-spacing: 1px;
+}
+
+.card6 .back p
+{
+  letter-spacing: 1px;
+}
+
+.card7 .back p
+{
+  letter-spacing: 1px;
+}
+
+.card8 .back p
+{
+  letter-spacing: 1px;
+}
+
+.card:hover .front
+{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card1:hover .front
+{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card2:hover .front
+{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card3:hover .front
+{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card4:hover .front
+{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card5:hover .front
+{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card6:hover .front
+{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card7:hover .front
+{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card8:hover .front
+{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+
+.card:hover .back
+{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.card1:hover .back
+{
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.card2:hover .back
+{
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.card3:hover .back
+{
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.card4:hover .back
+{
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.card5:hover .back
+{
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.card6:hover .back
+{
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.card7:hover .back
+{
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.card8:hover .back
+{
+  transform: perspective(600px) rotateY(360deg);
+}
+
+
